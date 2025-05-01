@@ -22,6 +22,8 @@ This project allows two users to chat securely over WebRTC, using MetaMask signa
 
 ```bash
 git clone https://github.com/your-username/webrtc-messaging.git
+```
+```yaml
 cd webrtc-messaging
 ```
 ## Install Dependencies
