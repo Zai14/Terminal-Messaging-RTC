@@ -1,0 +1,19 @@
+{
+  "name": "webrtc-messaging",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start-server": "ts-node --loader ts-node/esm src/signaling-server.ts",
+    "start-client": "ts-node --loader ts-node/esm src/webrtc-client.ts"
+  },
+  "dependencies": {
+    "@types/node": "^22.15.3",
+    "ethers": "^6.8.1",
+    "readline": "^1.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "wrtc": "^0.4.7",
+    "ws": "^8.13.0"
+  }
+}
