@@ -51,3 +51,20 @@ npm run start-client
 **This helps verify the user's identity via their Ethereum address.**
 
 **No transaction is sent – only a signed message is used for verification.**
+## 🔐 Security Notes
+**No messages or private keys are stored.**
+
+**This is a prototype and not production-ready for handling private communication.**
+
+## 🧪 Tested On
+****Node.js v20+****
+
+****MetaMask Extension****
+
+****Windows 10 / WSL2****
+
+## 📃 License
+**MIT License. Feel free to use, modify, and contribute!**
+
+## ✨ Acknowledgments
+**Inspired by WebRTC and Ethereum ecosystem projects. Built by Zaid Shabir.**
